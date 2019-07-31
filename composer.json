@@ -1,0 +1,24 @@
+{
+    "name": "zqeesoom\/sjunit-laravel2",
+    "description": "A simplified version of the laravel framework unit test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zqeesoom",
+            "email": "zqeesoom@126.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zqeesoom\\SjunitLaravel2\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Zqeesoom\\SjunitLaravel2\\Providers\\SjunitServiceProvider"
+            ]
+        }
+    }
+}
